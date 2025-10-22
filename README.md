@@ -28,7 +28,7 @@ For today we'll focus on a single source, the Guardian’s content API -
 [https://open-platform.theguardian.com/](https://open-platform.theguardian.com/)
 
 The app should present a text field for the user to type their search
-terms, *as the user types* it should take that input and use it to
+terms, _as the user types_ it should take that input and use it to
 perform a search against
 
 Given the result of that API call it should display a list of results,
@@ -39,16 +39,16 @@ grouped by the Section of the Guardian the items are found in.
 - The application should be built in (React if you are doing the
   frontend coding challenge, an MVC framework of your preference if you
   are doing the backend coding challenge)
-    - The application should not call the Guardian API directly, rather
-      we'd like to see you build your own API as a proxy for the
-      Guardian one
+  - The application should not call the Guardian API directly, rather
+    we'd like to see you build your own API as a proxy for the
+    Guardian one
 - Each item should show:
-    - The Title
-    - A link to the article
-    - The publication date (formatted as DD/MM/YYYY).
-    - A button or checkbox that allows it to be pinned.
-        - Pinned items should appear below the search results, and stay
-          on screen as search results change.
+  - The Title
+  - A link to the article
+  - The publication date (formatted as DD/MM/YYYY).
+  - A button or checkbox that allows it to be pinned.
+    - Pinned items should appear below the search results, and stay
+      on screen as search results change.
 
 Use whichever libraries and frameworks that will help you get the job
 done. Use any UI framework or prebuilt design system that works for you.
@@ -60,7 +60,7 @@ if you have a solid reason for them.
 - A working app pushed to your own Github account - please fork the repo
   and start with one of the branches for your chosen technology stack.
 - A good idea of the decisions you have made while building this. Why
-  you did it *this way* and not *that way* and what that means. What are
+  you did it _this way_ and not _that way_ and what that means. What are
   you locking yourself into and what are you deferring to later. What is
   going to matter for ongoing performance, scalability, extensibility,
   robustness.
@@ -68,10 +68,9 @@ if you have a solid reason for them.
 ## **What we’re not looking for, as much**
 
 - **Visual design.** Beyond a basic idea of clarity, any visual design
-  touches are *entirely* optional. Some developers prefer to leave the
-  design to designers, some get a kick out of making things *just so*.
+  touches are _entirely_ optional. Some developers prefer to leave the
+  design to designers, some get a kick out of making things _just so_.
   We like both kinds.
-
 
 ## Starting up this branch
 
